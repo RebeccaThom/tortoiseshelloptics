@@ -10,6 +10,8 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
 }
 .container {
   max-width: 960px;
@@ -23,8 +25,13 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+nav span {
+  font-size: 1rem;
+}
 img {
   border-style: none;
+  padding-left: 2rem;
+  padding-right: 1rem;
 }
 nav div {
   display: flex;
@@ -36,4 +43,22 @@ ul {
 ul li {
   display: inline;
   padding: 0 1rem;
+}
+header .flex {
+  justify-content: flex-end;
+}
+.flex {
+  display: flex;
+}
+.banner {
+  background-color: white;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
 }
